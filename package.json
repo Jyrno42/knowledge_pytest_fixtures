@@ -1,0 +1,19 @@
+{
+  "name": "knowledge_tg_resources",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Jyrno Ader <jyrno@thorgate.eu>",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "koa": "^1.2.4",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "mkdir -p public"
+  },
+  "devDependencies": {
+    "koa-static-cache": "^3.1.7"
+  }
+}
